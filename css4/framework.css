@@ -1,0 +1,48 @@
+/* Star Box */
+.d-flex {
+    display: flex;
+}
+.ai-centre {
+    align-items: center;
+}
+/* End Box */
+/* Star Padding + Margin */
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+/* End Padding + Margin */
+/* Star Color */
+.bg-white {
+    background-color: white;
+}
+.c-black {
+    color: black;
+}
+/* End Color */
+/* Star Position */
+.p-relative {
+    position: relative;
+}
+/* Star Position */
+/* Star Font */
+.t-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+/* End Font */
+/* Star Border */
+.rad-6 {
+    border-radius: 6px;
+}
+/* End Border */
