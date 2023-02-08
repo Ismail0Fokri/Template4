@@ -5,8 +5,16 @@
 .ai-centre {
     align-items: center;
 }
-.hidden {
-    overflow: hidden;
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .d-block-mobile {
+        display: block;
+    }
 }
 /* End Box */
 /* Star Padding + Margin */
@@ -24,6 +32,15 @@
 }
 .mt-0 {
     margin-top: 0;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
 }
 /* End Padding + Margin */
 /* Star Color */
@@ -49,8 +66,16 @@
 .fs-14 {
     font-size: 14px;
 }
+@media (max-width: 767px) {
+.t-c-mobile {
+    text-align: center;
+}
+}
 /* End Font */
-/* Star Border */
+/* Star Border + overflow */
+.hidden {
+    overflow: hidden;
+}
 .br-3c {
     border: 1px solid #ccc;
 }
