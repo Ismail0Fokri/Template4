@@ -1,9 +1,23 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
 /* Star Box */
+.d-block {
+    display: block;
+}
 .d-flex {
     display: flex;
 }
 .ai-centre {
     align-items: center;
+}
+.space-between {
+    justify-content: space-between;
 }
 .d-grid {
     display: grid;
@@ -12,10 +26,15 @@
     gap: 20px;
 }
 @media (max-width: 767px) {
-    .d-block-mobile {
+    .block-mobile {
         display: block;
     }
+
+    .none-mobile {
+        display: none;
+    }
 }
+
 /* End Box */
 /* Star Padding + Margin */
 .p-10 {
@@ -27,11 +46,23 @@
 .p-20 {
     padding: 20px;
 }
+.m-0 {
+    margin: 0;
+}
 .m-20 {
     margin: 20px;
 }
 .mt-0 {
     margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
 }
 .mr-20 {
     margin-right: 20px;
@@ -47,11 +78,20 @@
 .bg-white {
     background-color: white;
 }
+.bg-eee {
+    background-color: #eee;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.c-white {
+    color: white;
+}
 .c-black {
     color: black;
 }
 .c-grey {
-    color: #888;
+    color: var(--grey-color);
 }
 /* End Color */
 /* Star Position */
@@ -86,14 +126,12 @@
     border-radius: 10px;
 }
 /* End Border */
-@media (max-width: 767px) {
-    .hide-mobile {
-        display: none;
-    }
-}
 /* Star Width + Height */
 .w-full {
     width: 100%;
+}
+.w-fit {
+    width: fit-content;
 }
 /* End Width + Height */
 /* Star Component */
