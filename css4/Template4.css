@@ -278,3 +278,32 @@ ul {
     background-color: rgb(34 197 94 / 20% );
 }
 /* End Targets */
+/* Star Tickets */
+.tickets .box {
+    border: 1px solid #ccc;
+    width: calc(50% - 10px);
+}
+@media (max-width: 767px) {
+    .tickets .box {
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+}
+/* End Tickets */
+/* Star Latest News */
+@media (max-width: 767px) {
+       .latest-news .news-row {
+        display: block;
+        }
+        .latest-news .news-row img {
+            display: none;
+        }
+        .latest-news .news-row .label {
+            margin: 10px auto;
+            width: fit-content;
+        }
+        .latest-news h2 {
+            padding-bottom: 15px;
+        }
+    }
+/* End Latest News */
