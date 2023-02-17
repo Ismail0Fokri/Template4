@@ -342,3 +342,48 @@ ul {
     height: 40px;
 }
 /* End Latest Uploads */
+/* Star Current Project */
+.current-project ul::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 11px;
+    background-color: var(--blue-color);
+}
+.current-project ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    outline: 2px solid var(--blue-color);
+    margin-right: 15px;
+    z-index: 1;
+}
+.current-project ul li.done::before {
+    background-color: var(--blue-alt-color);
+}
+.current-project ul li.current::before {
+    animation: change-color 0.8s infinite alternate;
+}
+.current-project .launch-icon {
+    position: absolute;
+    width: 160px;
+    opacity: 0.4;
+    right: 0;
+    bottom: 0;
+}
+/* End Current Project */
+/* Star Animation */
+@keyframes change-color {
+    from {
+       background-color: var(--blue-alt-color);
+    }
+    to {
+       background-color: white;
+    }
+}
+/* End Animation */
