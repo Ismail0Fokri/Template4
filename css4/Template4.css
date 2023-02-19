@@ -377,16 +377,6 @@ ul {
     bottom: 0;
 }
 /* End Current Project */
-/* Star Animation */
-@keyframes change-color {
-    from {
-       background-color: var(--blue-alt-color);
-    }
-    to {
-       background-color: white;
-    }
-}
-/* End Animation */
 /* Star Reminders */
 .reminders ul li .key {
     width: 15px;
@@ -405,3 +395,27 @@ ul {
     border-left: 2px solid var(--red-color);
 }
 /* End Reminders */
+/* Star Latest Post */
+.latest-post .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.latest-post .post-content {
+    text-transform: capitalize;
+    line-height: 1.8;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    min-height: 140px;
+}
+/* End Latest Post */
+/* Star Animation */
+@keyframes change-color {
+    from {
+       background-color: var(--blue-alt-color);
+    }
+    to {
+       background-color: white;
+    }
+}
+/* End Animation */
