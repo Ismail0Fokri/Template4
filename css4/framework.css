@@ -232,6 +232,9 @@
 .h-fit {
     height: fit-content;
 }
+.h-full {
+    height: 100%;
+}
 /* End Width + Height */
 /* Star Component */
 .center-flex {
