@@ -496,6 +496,46 @@ ul {
     font-size: 13px;
 } 
 /* End Project Table */
+/* Star Settings */
+.toggle-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.toggle-switch {
+    position: relative;
+    width: 78px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #ccc;
+    transition: 0.3s;
+}
+.toggle-switch::before {
+    content: "\f00d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    transition: 0.3s;
+}
+.toggle-checkbox:checked + .toggle-switch {
+    background-color: var(--blue-color);
+}
+.toggle-checkbox:checked + .toggle-switch::before {
+    content: "\f00c";
+    color: var(--blue-color);
+    left: 47px;
+}
+/* End Settings */
 /* Star Animation */
 @keyframes change-color {
     from {
