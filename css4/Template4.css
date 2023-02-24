@@ -513,9 +513,14 @@ ul {
     border: 0.7px solid #ccc;
     min-height: 150px;
 }
+.settings-page .email {
+    width: calc(100% - 80px);
+    display: inline-flex;
+}
 .toggle-checkbox {
     -webkit-appearance: none;
     appearance: none;
+    display: none;
 }
 .toggle-switch {
     position: relative;
@@ -525,7 +530,6 @@ ul {
     border-radius: 15px;
     background-color: #ccc;
     transition: 0.3s;
-    margin-bottom: 15px;
 }
 .toggle-switch::before {
     content: "\f00d";
