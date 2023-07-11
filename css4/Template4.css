@@ -295,17 +295,17 @@ ul {
 /* End Tickets */
 /* Star Latest News */
 @media (max-width: 767px) {
-       .latest-news .news-row {
+    .latest-news .news-row {
         display: block;
         }
-        .latest-news .news-row img {
+    .latest-news .news-row img {
             display: none;
         }
-        .latest-news .news-row .label {
+    .latest-news .news-row .label {
             margin: 10px auto;
             width: fit-content;
         }
-        .latest-news h2 {
+    .latest-news h2 {
             padding-bottom: 15px;
         }
     }
@@ -517,6 +517,37 @@ ul {
     width: calc(100% - 80px);
     display: inline-flex;
 }
+.settings-page .sec-box {
+    padding-bottom: 15px;
+}
+.settings-page .sec-box:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+.settings-page .sec-box .button {
+    transition: 0.3s;
+}
+.settings-page .sec-box .button:hover {
+    background-color: var(--blue-alt-color);
+}
+.settings-page .social-boxes i {
+    width: 40px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    transition: 0.3s;
+}
+.settings-page .social-boxes input {
+    height: 40px;
+    background-color: #f6f6f6;
+    padding-left: 10px;
+    border: 1px solid #dddd;
+    border-radius: 0 6ox 6px 0;
+}
+.settings-page .social-boxes > div:focus-within i {
+    color: black;   
+}
 .toggle-checkbox {
     -webkit-appearance: none;
     appearance: none;
@@ -556,14 +587,19 @@ ul {
     color: var(--blue-color);
     left: 47px;
 }
+.settings-page :disabled {
+    background-color: #f0f4f8;
+    cursor: no-drop;
+    color: #bbb;
+}
 /* End Settings */
 /* Star Animation */
 @keyframes change-color {
     from {
-       background-color: var(--blue-alt-color);
+    background-color: var(--blue-alt-color);
     }
     to {
-       background-color: white;
+    background-color: white;
     }
 }
 /* End Animation */
