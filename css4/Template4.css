@@ -694,6 +694,38 @@ ul {
     color: #bbb;
 }
 /* End Settings */
+/* Star Profil Page */
+@media (max-width: 767px) {
+    .profile-page .overveiw {
+        flex-direction: column;
+    }
+}
+.profile-page .avatar-box {
+    width: 300px;
+}
+@media (min-width: 768px) {
+    .profile-page .avatar-box {
+        border-right: 1px solid #eee;
+    }
+}
+.profile-page .avatar-box > img {
+    width: 120px;
+    height: 120px;
+}
+.profile-page .avatar-box .level {
+    height: 6px;
+    margin: auto;
+    width: 70%;
+}
+.profile-page .avatar-box .level span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--blue-color);
+    border-radius: 6px;
+}
+/* End Profil Page */
 /* Star Animation */
 @keyframes change-color {
     from {
