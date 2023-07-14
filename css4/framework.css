@@ -175,6 +175,9 @@
 .t-c {
     text-align: center;
 }
+.fw-normal {
+    font-weight: normal;
+}
 .fw-bold {
     font-weight: bold;
 }
