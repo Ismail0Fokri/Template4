@@ -194,7 +194,7 @@
     font-size: 25px;
 }
 @media (max-width: 767px) {
-.t-c-mobile {
+.mobile {
     text-align: center;
 }
 }
