@@ -52,6 +52,9 @@
 .p-20 {
     padding: 20px;
 }
+.pt-10 {
+    padding-top: 10px;
+}
 .pt-15 {
     padding-top: 15px;
 }
@@ -170,6 +173,9 @@
 .p-relative {
     position: relative;
 }
+.p-absolute {
+    position: absolute;
+}
 /* Star Position */
 /* Star Font */
 .t-c {
@@ -206,6 +212,12 @@
 .b-ccc {
     border: 1px solid #ccc;
 }
+.b-eee {
+    border: 1px solid #eee;
+}
+.bt-eee {
+    border-top: 1px solid #eee;
+}
 .bb-eee {
     border-bottom: 1px solid #eee;
 }
@@ -241,6 +253,9 @@
 .h-70 {
     height: 70px;
 }
+.h-100 {
+    height: 100px;
+} 
 .h-fit {
     height: fit-content;
 }
